@@ -82,8 +82,26 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\alerter.ts" />
+    <Content Include="Scripts\alerter.js">
+        <DependentUpon>alerter.ts</DependentUpon>
+    </Content>
+    <Content Include="Scripts\alerter.js.map">
+        <DependentUpon>alerter.ts</DependentUpon>
+    </Content>
     <TypeScriptCompile Include="Scripts\dataservice.ts" />
+    <Content Include="Scripts\dataservice.js">
+        <DependentUpon>dataservice.ts</DependentUpon>
+    </Content>
+    <Content Include="Scripts\dataservice.js.map">
+        <DependentUpon>dataservice.ts</DependentUpon>
+    </Content>
     <TypeScriptCompile Include="Scripts\main.ts" />
+    <Content Include="Scripts\main.js">
+        <DependentUpon>main.ts</DependentUpon>
+    </Content>
+    <Content Include="Scripts\main.js.map">
+        <DependentUpon>main.ts</DependentUpon>
+    </Content>
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\requirejs\require.d.ts" />
   </ItemGroup>
